@@ -1,0 +1,79 @@
+/* Reset and Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EAEDED;
+    color: #34495E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 1rem 0;
+    border-bottom: 2px solid #B2BABB;
+    padding-bottom: 0.5rem;
+}
+
+section {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #A3E4D7;
+    border: none;
+    color: #34495E;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #76D7C4;
+}
+
+button:active {
+    background-color: #48C9B0;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 1rem 0;
+}
+
+#story {
+    background: #F4F6F7;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+#studentId {
+    color: #48C9B0;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
